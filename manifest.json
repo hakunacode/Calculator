@@ -1,0 +1,37 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "install.js" ]
+   },
+   "browser_action": {
+      "default_icon": "19.png",
+      "default_popup": "index.html",
+      "default_title": "Melanto Calculator"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Alt+C",
+            "default": "Alt+C",
+            "linux": "Alt+C",
+            "mac": "Alt+C",
+            "windows": "Alt+C"
+         }
+      }
+   },
+   "description": "One different scientific calculator...",
+   "homepage_url": "https://melanto.com/calculator-info.html",
+   "icons": {
+      "128": "128.png",
+      "19": "19.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSM2gZQsAPedUYkr9dNiBYjt5SAHlXzOaY3vi9zT00ruhZDksugXI9aiLCbfkPs7yfwuPaPzwB64a+mdVxpOnnlwZGAWI/+n3AvnBjtKn7P5C2UNN39EMhgsWLIQXGmOpXFL5ezsIgJ+m7thAIcbSjdi3wnDRSq0+8Rz6s3KhJiwIDAQAB",
+   "manifest_version": 2,
+   "name": "Melanto Calculator",
+   "offline_enabled": true,
+   "options_page": "options_page/index.html",
+   "permissions": [ "clipboardRead", "clipboardWrite" ],
+   "short_name": "Calculator",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0"
+}
